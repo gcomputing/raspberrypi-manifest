@@ -21,7 +21,7 @@ Create a working directory and use `repo` to intialize your build environment.
 
 	$ mkdir <WORKING>
 	$ cd <WORKING>
-	$ repo init -u https://github.com/sitec-systems/s4-manifest.git -b oss
+	$ repo init -u https://github.com/sgcomputing/raspberry-manifest.git -b master
 	$ repo sync
 
 Now you can setup your build environment using the `bootstrap` script. For the first time run:
