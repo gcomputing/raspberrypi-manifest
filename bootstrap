@@ -84,6 +84,7 @@ if [ $fullsetup ]; then
   mkdir -p $BUILDDIR/conf
   cp .repo/manifests/config/$machine/local.conf $BUILDDIR/conf/
   cp .repo/manifests/config/$machine/bblayers.conf $BUILDDIR/conf/
+  cp .repo/manifests/config/$machine/sanity.conf $BUILDDIR/conf/
 fi
 cd $BUILDDIR
 
