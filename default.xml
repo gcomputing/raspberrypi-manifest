@@ -9,6 +9,8 @@
 
   <project remote="yocto" revision="warrior"
 	   name="poky" path="src/poky"/>
+  <project remote="oe" revision="warrior"
+	   name="meta-openembedded" path="src/meta-openembedded"/>
   <project remote="yocto" revision="warrior"
 	   name="meta-raspberrypi" path="src/meta-raspberrypi">
 	<copyfile  dest="bootstrap" src="../../.repo/manifests/bootstrap"/>
