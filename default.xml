@@ -16,4 +16,7 @@
 	<copyfile  dest="bootstrap" src="../../.repo/manifests/bootstrap"/>
   </project>
 
+  <project remote="github" revision="warrior"
+	   name="meta-qt5/meta-qt5" path="src/meta-qt5"/>
+
 </manifest>
